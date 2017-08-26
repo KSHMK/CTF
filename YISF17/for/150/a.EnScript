@@ -1,0 +1,4 @@
+class MainClass {
+  void Main(CaseClass c) {
+  }
+}

@@ -1,0 +1,163 @@
+﻿sanity check
+Misc (1 pts)
+The flag is PCTF{poop}
+---------------
+logarithms are hard
+Misc (10 pts)
+What is e^(1.000000001)? 
+
+Please enter in decimal with 7 places. 
+(For example, if the answer was 2.71828183... the flag would be 2.7182818 )
+
+---------------
+Multicast
+Crypto (175 pts)
+Many messages intercepted. 
+
+Break them.
+---------------
+no_mo_flo
+Reversing (125 pts)
+Can you go with the flow?
+---------------
+zipper
+Misc (50 pts)
+Something doesn't seem quite right with this zip file. 
+
+Can you fix it and get the flag?
+---------------
+gameboy
+Pwnable (450 pts)
+Whatever happened to the good old days when we played on our Gameboys instead of doing this hacking stuff? ...I guess in retrospect not a whole lot has changed. 
+
+Running at gameboy.chal.pwning.xxx:30908
+---------------
+scriptabble
+Reversing (250 pts)
+Script with the best or die like the rest. 
+
+Download
+---------------
+BB-8
+Crypto (200 pts)
+Oh sorry, did I say BB-8? Like the Star Wars robot thing? 
+
+Haha whoops… I meant BB-84… the Quantum Key Distribution protocol. 
+
+That's my bad, I hope that wasn't misleading or anything. 
+
+Running at bb8.chal.pwning.xxx:20811
+----------------
+Echo
+Web (200 pts)
+If you hear enough, you may hear the whispers of a key... 
+If you see app.py well enough, you will notice the UI sucks... 
+
+http://echo.chal.pwning.xxx:9977/ 
+http://echo2.chal.pwning.xxx:9977/
+----------------
+Common
+Crypto (600 pts)
+I heard that Common Prime RSA lets me use a small private exponent without being vulnerable to Wiener's attack!
+-----------------
+bigpicture
+Pwnable (200 pts)
+Size matters! 
+
+Running at bigpicture.chal.pwning.xxx:420 
+
+Download
+-------------------
+zamboni
+Reversing (200 pts)
+I heard you like art. Here's an art recognizer!
+-------------------
+terebeep
+Misc (250 pts)
+You might need to turn your volume up really loud if you want to hear this. 
+
+Yow, okay, maybe that was too loud. 
+-------------------
+Chakrazy
+Pwnable (600 pts)
+We tried to make ChakraCore crazily secure. In doing so, we also removed some code that didn't seem too important. 
+
+Our hardened Chakra can be tested here: http://chakrazy.chal.pwning.xxx 
+
+Download
+-------------------
+Pykemon
+Web (151 pts)
+Gotta catch them FLAGs! 
+
+Take this with you.
+-------------------
+definitely maybe
+Reversing (375 pts)
+Can angr solve this? Definitely! Well... maybe... ermm, ok, probably not.
+-------------------
+Toaster Wars
+Web (975 pts)
+Toaster Wars: Going Rogue, Episode 2.5 - 20000 Leagues Under the Sink 
+
+I'd heard of the weird region-specific edition of TW:GR, but I didn't know they were planning on bringing it to the masses. And as a neat online game, no less! They just put out a public beta2 or public beta 3. 
+
+Download (OLD source) 
+Download (NEW source -- bugfix) 
+
+Part I: I found a locked box in Undersea Cavern once... and I think I saw a key in Calm Crystal Reef somewhere? Can you break the lock? 
+
+Part II: Based on the site, there's a dungeon called Shallow Sand Bar that's only open to players from their closed alpha. Surely that won't stop you from getting the flag at the end of that dungeon. 
+
+Part III: The boss at the end of Treacherous Trench, the Golden Spatula, is a jerk. Show him what you're made of and grab the flag!
+
+Part I (225 pts)
+-------------------
+Tetanus
+Pwnable (500 pts)
+I stepped on a rusty nail and caught some bugs :-( 
+I think I got rid of them all, but maybe there's still some left. 
+
+Can you take a look? 
+Download 
+
+Part I: userspace (/home/ppp/flag) 
+Part II: kernel (/root/flag) 
+
+Please ensure your exploit works locally before connecting to the remote instance. 
+Running at tetanus.chal.pwning.xxx:29299 
+
+Tip: 
+hashcash -m -b 30 [challenge] 
+---------------------
+yacp
+Pwnable (300 pts)
+What’s this? Yet another crypto problem? 
+
+You’ve got to be kidding me! 
+
+Running at yacp.chal.pwning.xxx:7961
+
+---------------------
+Down the Reversing Hole
+Misc (50 pts)
+Don't forget. This is a MISC challenge. 
+
+Download 
+---------------------
+Plaid Party Planning
+Pwnable (400 pts)
+Oh, no! The CTF has already started and we haven't finished planning the afterparty. 
+
+Can you help? The organizing committee is meeting here. 
+
+Running at partyplanning.chal.pwning.xxx:3291
+
+--------------------
+SHA-4
+Web (300 pts)
+I heard SHA-1 is broken, so I think it's probably time we move to SHA-4.
+---------------------
+FHE
+Crypto (275 pts)
+If you didn’t get the memo, homomorphic encryption is the future. But we might have to work out a few bugs first.

@@ -1,0 +1,9 @@
+K1 yamyambugsXB
+K2 C8 59 78
+K3 hel
+K4 00 0c 29 <- disable because of NULL
+K5 hellowfish
+yamya
+
+79 61 6d 79 61 c8 59 78 
+68 65 6c 00 0c 29 68 65 6c 6c 6f

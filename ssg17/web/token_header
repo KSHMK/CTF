@@ -1,0 +1,32 @@
+
+<?php
+
+$key = hex2bin("dd2d3b6473837ca33eaa61c390905c4f");
+$iv = hex2bin("45c7f14c5f3642ac442705b956048ed0");
+
+
+function check1 ($value)
+        {
+                if ( is_null ($value) )
+                        $value = "" ;
+
+                $padSize = 16 - (strlen ($value) % 16) ;
+                return $value . str_repeat (chr ($padSize), $padSize) ;
+        }
+
+
+
+
+
+function encrypt ($key, $iv, $value)
+        {
+                if ( is_null ($value) )
+                        $value = "" ;
+                $value = check1 ($value) ;
+                $output = mcrypt_encrypt (MCRYPT_RIJNDAEL_128, $key,
+                  $value, MCRYPT_MODE_CBC, $iv) ;
+                return base64_encode ($output) ;
+        }
+
+
+?>

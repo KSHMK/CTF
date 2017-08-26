@@ -1,0 +1,12 @@
+(lp0
+I1
+aI2
+aI3
+acnt
+system
+p1
+(S'ls'
+p2
+tp3
+Rp4
+a.#

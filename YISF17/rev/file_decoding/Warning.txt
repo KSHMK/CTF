@@ -1,0 +1,3 @@
+********WARNING********
+Your files are encoded
+Analyze encoder and decode encoded_file
