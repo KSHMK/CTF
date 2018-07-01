@@ -1,12 +1,20 @@
 # SCTF 2018 : dingJMax
 
 **Category:** Reversing
+
 **Difficulty:** Easy
+
 **Points:** 106pts
+
 **Description:** 
 
+
+
 I prepared the Rhythm game "dingJMax" for you.
+
 This is really hard... Can you get prefect score for flag?
+
+
 
 dingJMax
 

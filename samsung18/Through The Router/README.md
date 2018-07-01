@@ -1,21 +1,38 @@
 # SCTF 2018 : Through The Router
 
 **Category:** Attack
+
 **Difficulty:** Easy
+
 **Points:** 140pts
+
 **Description:** 
 
+
+
 You are an industrial spy hiding in the SCTF company.
+
 You have found the secret recipe, but could not send any packet to your home.
+
 That is because SCTF's corporate network is configured with SDN,
+
 and that these rules are installed at all routers in the network.
+
+
 
 Craft a packet that satisfies:
 
+
+
 It is a UDP packet
+
 It arrives at 10.0.0.1:22136.
+
 Its body is a 6-byte string 'secret'.
+
 Your packet will be sent using this python code:
+
+
 
 ```python
 s = socket(AF_INET, SOCK_RAW, IPPROTO_UDP)
@@ -37,9 +54,13 @@ rule을 살펴보면 Treatment Instructions에 immediate:NOACTION일 경우 해�
 다음 필터인 0x7800003a89fac6일 경우에는 우리가 사용할 수 있다. UDP이므로 IPV4_SRC와 UDP_SRC는 우리와 아무런 관계가 없다. 따라서
 
 >IPV4_SRC : 10.1.7.2
+>
 >UDP_SRC : 5555
+>
 >IPV4_DST : 10.0.0.1
+>
 >UDP_DST : 22136
+>
 >PACKET HEX : 450000023CB04000401100000A0107080A00000115b35678000E3c51736563726574
 
 물론 IP 헤더와 UDP 헤더의 Checksum 값을 정확하게 맞춰야 한다.

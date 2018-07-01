@@ -1,18 +1,31 @@
 # SCTF 2018 : Not Open Network
 
 **Category:** Defense
+
 **Difficulty:** Medium
+
 **Points:** 297pts
+
 **Description:** 
 
+
+
 You are the network admin of a black market service.
+
 You want to setup a firewall to protect the servers from hackers and police.
+
 Your servers use IPs in 10.0.0.0/16 range.
 
+
+
 - Drop all incoming packets except the ones heading to port 80.
+
 - Drop all packets containing string 'police', case insensitive.
+
 - All other packets are sent to correct destinations.
+
 You may assume that there will be TCP packets only.
+
 
 ## Write-up (KO)
 
